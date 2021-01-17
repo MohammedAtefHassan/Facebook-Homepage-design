@@ -69,12 +69,12 @@ class PostContainer extends StatelessWidget {
           margin: EdgeInsets.only(bottom: 11),
           padding: EdgeInsets.symmetric(horizontal: 10),
           child: Text(
-            'lskdjfhlkhflegwrhgkje kewerfewmrng,ewg ewg jewkgewgklewjg newlkgjbwegkbgkejw   kjrgewrkj gewlrge',
+            'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm',
             overflow: TextOverflow.clip,
           ),
         ),
         Image.asset(
-          'assets/images/5.jpg',
+          'assets/images/post.jpg',
         ),
       ],
     );

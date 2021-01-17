@@ -18,7 +18,7 @@ class ProfileAvatar extends StatelessWidget {
               color: hasBorder ? Colors.blue : Colors.white,
             ),
             image: DecorationImage(
-              image: AssetImage('assets/images/5.jpg'),
+              image: AssetImage('assets/images/user.jpg'),
               fit: BoxFit.fill,
             ),
           ),

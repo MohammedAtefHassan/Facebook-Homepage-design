@@ -146,7 +146,7 @@ class HomeScreen extends StatelessWidget {
                       margin: EdgeInsets.all(8),
                       child: ProfileAvatar(
                         hasMargin: true,
-                        isActive: true,
+                        isActive: index % 2 == 0,
                       ),
                     );
                   },

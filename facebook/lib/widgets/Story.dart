@@ -1,7 +1,7 @@
 import 'package:facebook/widgets/ProfileAvatar.dart';
 import 'package:flutter/material.dart';
 
-class Story extends StatelessWidget {
+class Story extends StatelessWidget { 
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -20,7 +20,7 @@ class Story extends StatelessWidget {
                     width: 130,
                     color: Colors.red,
                     child: Image.asset(
-                      'assets/images/5.jpg',
+                     index==0? 'assets/images/user.jpg':'assets/images/story.jpg',
                       fit: BoxFit.fill,
                     ),
                   ),
